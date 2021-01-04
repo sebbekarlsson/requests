@@ -63,6 +63,7 @@ class RequestEncodingMixin(object):
         """Build the path URL to use."""
 
         url = []
+        name = ''
 
         p = urlsplit(self.url)
 
